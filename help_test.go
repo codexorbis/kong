@@ -126,7 +126,7 @@ Flags:
 	})
 }
 
-func TestFlagsLast(t *testing.T) {
+func TestHelpOptionsFlagsLast(t *testing.T) {
 	// nolint: govet
 	var cli struct {
 		String   string         `help:"A string flag."`
